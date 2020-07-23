@@ -25,7 +25,7 @@ function ensureAndReturn(entry: CacheEntry<any>, key: keyof CacheEntry<any>): Ca
 }
 
 /**
- * Step one level deeper in the cache, based on the key value from the current location
+ * Step one level deeper in the cache, based on the key value from the current location.
  *
  * @param entry - base entry to work from
  * @param val - value to use as the key for progressing to the next level of the cache
